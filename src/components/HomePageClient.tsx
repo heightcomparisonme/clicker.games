@@ -84,7 +84,7 @@ export default function HomePageClient({ games }: HomePageClientProps) {
     const topGames = filteredGames.slice(0, 6).map((game) => ({
       '@type': 'ListItem',
       position: filteredGames.indexOf(game) + 1,
-      url: `https://clickergames.com${game.href}`,
+      url: `https://cliker.games${game.href}`,
       name: game.title,
     }));
 
