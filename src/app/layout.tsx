@@ -4,8 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 
 export const metadata: Metadata = {
-  title: "Steal a Brainrot - Free Online Games Platform",
-  description: "Steal a Brainrot is your gateway to the best free online games with instant access to thousands of titles. No long installs or interruptions — just pick a game and play anywhere, on any device!",
+  title: "ClickerGames - Free Cookie Clicker & Idle Games Platform",
+  description: "ClickerGames is your gateway to the best free clicker and incremental games! Play Cookie Clicker, idle games, and hundreds of addictive clicking games instantly. No downloads required — just click and play anywhere, on any device!",
 };
 
 export default function RootLayout({
@@ -14,8 +14,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="dark">
+    <html lang="en" className="dark" suppressHydrationWarning>
+      <body className="dark bg-gray-900 text-white"
+        style={{
+          colorScheme: 'dark'
+        }}
+      >
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-K9MECHLF1K"
