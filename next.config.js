@@ -2,12 +2,7 @@
 const nextConfig = {
   images: {
     unoptimized: true,
-    domains: [
-      "source.unsplash.com",
-      "images.unsplash.com",
-      "ext.same-assets.com",
-      "ugc.same-assets.com",
-    ],
+    // Migrated: Removed deprecated 'domains' in favor of 'remotePatterns' (Next.js 16)
     remotePatterns: [
       {
         protocol: "https",
