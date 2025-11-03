@@ -2,17 +2,17 @@ import Link from 'next/link';
 
 export default function Footer() {
   const socialLinks = [
-    { name: 'Facebook', href: 'https://www.facebook.com/Steal a Brainrot', icon: '📘' },
-    { name: 'Instagram', href: 'https://www.instagram.com/Steal a Brainrot/', icon: '📷' },
-    { name: 'LinkedIn', href: 'https://it.linkedin.com/company/Steal a Brainrot', icon: '💼' },
-    { name: 'TikTok', href: 'https://www.tiktok.com/@Steal a Brainrot', icon: '🎵' },
-    { name: 'YouTube', href: 'https://www.youtube.com/@Steal a Brainrotofficial', icon: '📺' },
-    { name: 'X (Twitter)', href: 'https://x.com/Steal a Brainrot', icon: '𝕏' }
+    { name: 'Facebook', href: 'https://www.facebook.com/ClickerGames', icon: '📘' },
+    { name: 'Instagram', href: 'https://www.instagram.com/ClickerGames/', icon: '📷' },
+    { name: 'LinkedIn', href: 'https://it.linkedin.com/company/ClickerGames', icon: '💼' },
+    { name: 'TikTok', href: 'https://www.tiktok.com/@ClickerGames', icon: '🎵' },
+    { name: 'YouTube', href: 'https://www.youtube.com/@ClickerGamesofficial', icon: '📺' },
+    { name: 'X (Twitter)', href: 'https://x.com/ClickerGames', icon: '𝕏' }
   ];
 
   const footerLinks = [
-    { name: 'About Us', href: 'https://partners.Steal a Brainrot.com' },
-    { name: 'Contact Us', href: 'https://partners.Steal a Brainrot.com/contact' },
+    { name: 'About Us', href: 'https://partners.clickergames.com' },
+    { name: 'Contact Us', href: 'https://partners.clickergames.com/contact' },
     { name: 'Privacy Policy', href: '/privacy-cookie' },
     { name: 'Terms of Service', href: '/terms' },
     { name: 'Cookie Policy', href: '/cookies' }
@@ -33,10 +33,10 @@ export default function Footer() {
               />
             </div>
             <p className="text-muted-foreground mb-4">
-              Experience the ultimate <strong>Clicker Games</strong>! Build your collection, generate income, and steal from others in this revolutionary Roblox-style strategy game. Play instantly with no downloads required!
+              Experience the ultimate <strong>Clicker Games</strong>! Click your way to cookie empire domination with addictive idle mechanics. Build bakeries, unlock upgrades, and watch your production skyrocket. Play the most satisfying clicker games instantly with no downloads required!
             </p>
             <p className="text-sm text-muted-foreground">
-              Start your Clicker Games today!
+              Start your cookie clicking adventure today!
             </p>
           </div>
 
@@ -82,12 +82,12 @@ export default function Footer() {
 
         {/* Game Categories Links */}
         <div className="border-t border-border pt-8 mb-8">
-          <h3 className="font-bold text-foreground mb-4">Game Features</h3>
+          <h3 className="font-bold text-foreground mb-4">Clicker Game Features</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {[
-              'Brainrot Collection', 'Meme Characters', 'Income Generation', 'Stealing Mechanics',
-              'Roblox Style', 'Strategy Games', 'Multiplayer', 'Free to Play',
-              'Browser Games', 'Instant Play', 'Character Trading', 'Base Building'
+              'Cookie Clicker', 'Idle Games', 'Incremental Games', 'Upgrade Systems',
+              'Prestige Mechanics', 'Achievement System', 'Auto-Clickers', 'Passive Income',
+              'Browser Games', 'Instant Play', 'Satisfying Clicks', 'Progress Tracking'
             ].map((feature) => (
               <span
                 key={feature}
@@ -119,17 +119,17 @@ export default function Footer() {
         {/* For Developers Section */}
         <div className="border-t border-border pt-8 mt-8">
           <div className="text-center">
-            <h3 className="font-bold text-foreground mb-2">Join the Brainrot Community</h3>
+            <h3 className="font-bold text-foreground mb-2">Join the Clicker Games Community</h3>
             <p className="text-muted-foreground mb-4">
-              Connect with thousands of players worldwide in the ultimate Brainrot collection experience. Share strategies, trade characters, and compete for the top spot!
+              Connect with thousands of clicker game enthusiasts worldwide! Share your best strategies, compare your progress, and discover new incremental games. Start clicking your way to the top!
             </p>
             <a
-              href="https://partners.stealabrainrot.com/"
+              href="https://partners.clickergames.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-block"
             >
-              Start Playing Now - Build Your Brainrot Empire
+              Start Clicking Now - Build Your Cookie Empire
             </a>
           </div>
         </div>

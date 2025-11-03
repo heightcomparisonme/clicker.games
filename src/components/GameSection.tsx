@@ -60,12 +60,12 @@ export default function GameSection({
 
         {games.length === 0 && (
           <div className="text-center py-12">
-            <div className="text-6xl mb-4">🎮</div>
+            <div className="text-6xl mb-4">�</div>
             <h3 className="text-xl font-semibold text-muted-foreground mb-2">
-              No games found
+              No clicker games found
             </h3>
             <p className="text-muted-foreground">
-              Try browsing other categories or check back later for new games!
+              Try browsing other clicker game categories or check back later for new incremental games!
             </p>
           </div>
         )}

@@ -8,7 +8,7 @@ interface SearchBarProps {
   className?: string;
 }
 
-export default function SearchBar({ onSearch, placeholder = "Search games...", className = "" }: SearchBarProps) {
+export default function SearchBar({ onSearch, placeholder = "Search clicker games, Cookie Clicker, idle games...", className = "" }: SearchBarProps) {
   const [searchQuery, setSearchQuery] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {

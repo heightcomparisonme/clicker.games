@@ -21,10 +21,10 @@ const gameInfo: GameInfo = {
   rating: 4.3,
   votes: 436,
   timesPlayed: 193477,
-  developer: "Brazilian Spyder",
-  releaseDate: "May 16, 2025",
+  developer: "Orteil",
+  releaseDate: "August 8, 2013",
   technology: "HTML5",
-  classifications: ["Roblox Games", "Meme Games", "Brainrot Games", "Casual Games"]
+  classifications: ["Idle Games", "Incremental Games", "Clicker Games", "Browser Games"]
 };
 
 const faqs: FAQItem[] = [
@@ -51,11 +51,11 @@ const faqs: FAQItem[] = [
 ];
 
 const proTips = [
-  "Start with Noobini Pizzanini to build your initial collection",
-  "Focus on generating income before attempting expensive purchases",
-  "Keep an eye on other players' collections for stealing opportunities",
-  "Prioritize legendary and rare Brainrots for maximum profit",
-  "Diversify your collection to ensure steady income flow"
+  "Click golden cookies immediately for powerful bonuses",
+  "Focus on buying buildings that give the best cookies per second",
+  "Don't neglect upgrades - they multiply your production significantly",
+  "Consider ascending when you have 200-300 heavenly chips for your first prestige",
+  "Check for seasonal events and limited-time upgrades"
 ];
 
 interface SectionProps {
@@ -91,16 +91,16 @@ export default function Section({ className = '' }: SectionProps) {
       {/* Game Header */}
       <header className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-          Steal a Brainrot
+          Cookie Clicker
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
-          Step into the Roblox-style world full of absurd meme characters, where you build your own collections of Brainrots and generate the best income over time.
+          The original incremental game that started it all! Click the giant cookie to earn cookies, buy buildings for passive income, and unlock hundreds of upgrades in this addictive idle game.
         </p>
         
         {/* Play Button */}
         <button className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold px-8 py-4 rounded-xl text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
           <Play className="w-6 h-6" />
-          Play Steal A Brainrot Now - Free!
+          Play Cookie Clicker Now - Free!
         </button>
       </header>
 
@@ -181,14 +181,14 @@ export default function Section({ className = '' }: SectionProps) {
       {/* Game Overview */}
       <section className="mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">
-          What is Steal A Brainrot?
+          What is Cookie Clicker?
         </h2>
         <div className="prose prose-lg max-w-none dark:prose-invert">
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-            Steal a Brainrot is an innovative collection and strategy game that combines the absurd humor of meme culture with engaging gameplay mechanics. Set in a Roblox-style universe, players build and manage collections of unique Brainrot characters, each with their own income-generating potential.
+            Cookie Clicker is the original and most addictive incremental game that started the entire idle gaming genre. Players click a giant cookie to earn cookies, which can be spent on buildings and upgrades that automatically generate more cookies. What starts as simple clicking evolves into complex optimization strategies.
           </p>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-            The game offers multiple ways to expand your collection: purchase new characters with in-game currency, or steal them from other players when opportunities arise. With various rarity tiers and strategic elements, Steal a Brainrot provides endless entertainment for casual and dedicated gamers alike.
+            The game features hundreds of upgrades, achievements, and prestige mechanics that allow you to reset your progress for permanent bonuses. With seasonal events, hidden features, and endless progression, Cookie Clicker provides countless hours of satisfying incremental gameplay.
           </p>
         </div>
       </section>
@@ -196,31 +196,31 @@ export default function Section({ className = '' }: SectionProps) {
       {/* How to Play */}
       <section className="mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">
-          How to Play and Collect Rewards
+          How to Play Cookie Clicker
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 rounded-xl p-6 border border-blue-200 dark:border-blue-700">
             <div className="flex items-center gap-3 mb-4">
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">1</div>
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Buy Your First Brainrots</h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Click the Giant Cookie</h3>
             </div>
-            <p className="text-gray-700 dark:text-gray-300">Start with basic characters like Noobini Pizzanini to build your initial collection and generate income.</p>
+            <p className="text-gray-700 dark:text-gray-300">Start by clicking the large cookie to earn your first cookies. Each click generates cookies that you can spend on upgrades.</p>
           </div>
           
           <div className="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900/20 dark:to-green-800/20 rounded-xl p-6 border border-green-200 dark:border-green-700">
             <div className="flex items-center gap-3 mb-4">
               <div className="bg-green-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">2</div>
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Generate Funds</h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Buy Buildings</h3>
             </div>
-            <p className="text-gray-700 dark:text-gray-300">Accumulate in-game currency and invest in higher-tier Brainrots for better returns.</p>
+            <p className="text-gray-700 dark:text-gray-300">Purchase cursors, grandmas, farms, and factories that automatically generate cookies per second, even when you're not clicking.</p>
           </div>
           
           <div className="bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 rounded-xl p-6 border border-purple-200 dark:border-purple-700">
             <div className="flex items-center gap-3 mb-4">
               <div className="bg-purple-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">3</div>
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Steal from Others</h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Unlock Upgrades</h3>
             </div>
-            <p className="text-gray-700 dark:text-gray-300">Take advantage of opportunities to steal Brainrots from other players and expand your collection.</p>
+            <p className="text-gray-700 dark:text-gray-300">Purchase powerful upgrades that multiply your cookie production and unlock new buildings and features.</p>
           </div>
         </div>
       </section>
@@ -267,14 +267,14 @@ export default function Section({ className = '' }: SectionProps) {
       <section className="text-center">
         <div className="bg-gradient-to-r from-purple-600 via-blue-600 to-green-600 rounded-2xl p-8 md:p-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            It's Time to Steal a Brainrot!
+            It's Time to Start Cookie Clicking!
           </h2>
           <p className="text-purple-100 text-lg mb-6 max-w-2xl mx-auto">
-            Join thousands of players in this addictive collection game. Build your empire, steal from others, and become the ultimate Brainrot collector!
+            Join millions of players in this addictive incremental game. Click cookies, buy buildings, unlock upgrades, and become the ultimate cookie empire builder!
           </p>
           <button className="inline-flex items-center gap-3 bg-white text-purple-600 font-bold px-8 py-4 rounded-xl text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
             <Play className="w-6 h-6" />
-            Start Playing Now - Completely Free!
+            Start Cookie Clicking Now - Completely Free!
           </button>
         </div>
       </section>

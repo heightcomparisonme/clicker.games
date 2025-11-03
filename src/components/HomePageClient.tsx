@@ -84,16 +84,16 @@ export default function HomePageClient({ games }: HomePageClientProps) {
     const topGames = filteredGames.slice(0, 6).map((game) => ({
       '@type': 'ListItem',
       position: filteredGames.indexOf(game) + 1,
-      url: `https://stealabrainrot.games${game.href}`,
+      url: `https://clickergames.com${game.href}`,
       name: game.title,
     }));
 
     return {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
-      name: 'Play Free Online Games | StealABrainrot Games',
+      name: 'Play Free Cookie Clicker & Idle Games | ClickerGames',
       description:
-        'Instantly play free online games across action, puzzle, racing, IO, and casual genres on StealABrainrot Games.',
+        'Instantly play free clicker games including Cookie Clicker, idle games, and incremental games on ClickerGames.',
       mainEntity: {
         '@type': 'ItemList',
         itemListElement: topGames,
@@ -297,52 +297,52 @@ export default function HomePageClient({ games }: HomePageClientProps) {
 
             <section className="py-16 bg-card rounded-2xl px-6 sm:px-10">
               <div className="max-w-4xl mx-auto text-center space-y-6">
-                <h2 className="text-3xl font-bold text-foreground">Our Game Picks</h2>
+                <h2 className="text-3xl font-bold text-foreground">Our Clicker Game Picks</h2>
                 <div className="grid md:grid-cols-2 gap-8 text-left">
                   <div>
                     <p className="text-muted-foreground leading-relaxed">
-                      New games from top developers around the world are added every day. Play
+                      New clicker and idle games from top developers are added every day. Play
                       classics like{' '}
-                      <Link href="/play/solitaire-gpx" className="text-primary hover:underline mx-1">
-                        Solitaire
+                      <Link href="/play/cookie-clicker" className="text-primary hover:underline mx-1">
+                        Cookie Clicker
                       </Link>
                       ,{' '}
-                      <Link href="/play/2048" className="text-primary hover:underline mx-1">
-                        2048
+                      <Link href="/play/clicker-heroes" className="text-primary hover:underline mx-1">
+                        Clicker Heroes
                       </Link>{' '}
                       and{' '}
-                      <Link href="/play/minesweeper" className="text-primary hover:underline mx-1">
-                        Minesweeper
+                      <Link href="/play/adventure-capitalist" className="text-primary hover:underline mx-1">
+                        Adventure Capitalist
                       </Link>
                       , or explore hits like{' '}
-                      <Link href="/play/shell-shockers" className="text-primary hover:underline mx-1">
-                        Shell Shockers
+                      <Link href="/play/idle-breakout" className="text-primary hover:underline mx-1">
+                        Idle Breakout
                       </Link>
                       ,{' '}
-                      <Link href="/play/smash-karts" className="text-primary hover:underline mx-1">
-                        Smash Karts
+                      <Link href="/play/paper-clips" className="text-primary hover:underline mx-1">
+                        Universal Paperclips
                       </Link>{' '}
                       and{' '}
                       <Link
-                        href="/play/flappy-bird-classic"
+                        href="/play/realm-grinder"
                         className="text-primary hover:underline mx-1"
                       >
-                        Flappy Bird
+                        Realm Grinder
                       </Link>
                       .
                     </p>
                   </div>
                   <div>
                     <p className="text-muted-foreground leading-relaxed">
-                      Our collection spans genres from{' '}
-                      <Link href="/category/puzzle" className="text-primary hover:underline mx-1">
-                        Puzzle Games
+                      Our collection spans from{' '}
+                      <Link href="/category/idle" className="text-primary hover:underline mx-1">
+                        Idle Games
                       </Link>{' '}
                       to{' '}
-                      <Link href="/category/car" className="text-primary hover:underline mx-1">
-                        Car Games
+                      <Link href="/category/incremental" className="text-primary hover:underline mx-1">
+                        Incremental Games
                       </Link>
-                      , ensuring every player finds something they love.
+                      , ensuring every clicker game fan finds their perfect clicking experience.
                     </p>
                   </div>
                 </div>

@@ -13,8 +13,8 @@ export default function SocialShare({ game, className = '' }: SocialShareProps) 
   const [copySuccess, setCopySuccess] = useState(false);
 
   const currentUrl = typeof window !== 'undefined' ? `${window.location.origin}/game/${game.id}` : '';
-  const shareText = `I found an awesome game on Steal a Brainrot: ${game.title}! Come play with me!`;
-  const shareDescription = `${game.title} - A great ${game.category} game featuring ${game.tags.join(', ')}. Play for free now!`;
+  const shareText = `I found an awesome clicker game: ${game.title}! Come play and click your way to victory with me!`;
+  const shareDescription = `${game.title} - An addictive ${game.category} clicker game featuring ${game.tags.join(', ')}. Play for free now and start clicking!`;
 
   const shareData = {
     title: game.title,
