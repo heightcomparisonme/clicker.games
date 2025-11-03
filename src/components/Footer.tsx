@@ -129,7 +129,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="btn-primary inline-block"
             >
-              Start Clicking Now - Build Your Cookie Empire
+              Start Clicker Games Now - Build Your Cookie Empire
             </a>
           </div>
         </div>

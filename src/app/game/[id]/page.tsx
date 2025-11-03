@@ -66,8 +66,8 @@ export default async function GamePage({ params }: GamePageProps) {
   }
 
   const gameUrls: Record<string, string> = {
-    'shell-shockers': 'https://shellshock.io/',
-    'smash-karts': 'https://smashkarts.io/',
+    'clicker-heroes': 'https://st1.8games.net/7/8g/igra-pobeg-kliker-geroev/',
+    'idle-cars': 'https://st.8games.net/7/igra-kliker-mashin/',
     'dogeminer': 'https://dogeminer.se/',
     'drift-boss': 'https://driftboss.net/',
     'hole-io': 'https://hole-io.com/',

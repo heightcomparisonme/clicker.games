@@ -13,22 +13,22 @@ export interface Game {
 export const games: Game[] = [
   // Most Played Games
   {
-    id: "shell-shockers",
-    title: "Shell Shockers",
-    image: "https://ext.same-assets.com/54244373/219849240.jpeg",
+    id: "clicker-heroes",
+    title: "Clicker Heroes",
+    image: "https://static.8games.net/flash/all/1/igra-pobeg-kliker-geroev.jpg",
     tags: ["io", "mmorpg", "gun"],
     category: "io",
-    href: "/play/shell-shockers",
+    href: "/play/clicker-heroes",
     popular: true,
     featured: true
   },
   {
-    id: "dogeminer",
-    title: "Dogeminer",
-    image: "https://ext.same-assets.com/54244373/2893940060.jpeg",
+    id: "idle-cars",
+    title: "Idle Cars",
+    image: "https://static.8games.net/flash/all/1/igra-kliker-mashin.jpg",
     tags: ["arcade", "mining", "idle"],
     category: "clicker",
-    href: "/play/dogeminer",
+    href: "/play/idle-cars",
     popular: true
   },
   {
