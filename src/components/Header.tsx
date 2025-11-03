@@ -18,12 +18,13 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/">
+            <Link href="/" className="flex items-center">
               <img
                 src="/logo-dark.png"
-                alt="Steal a Brainrot"
+                alt="Clicker Games"
                 className="h-8 w-auto cyber-glow transition-all duration-300 hover:scale-105"
               />
+              <span className="ml-2 text-xl font-bold tracking-wide">Clicker Games</span>
             </Link>
           </div>
 

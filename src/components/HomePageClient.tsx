@@ -138,7 +138,7 @@ export default function HomePageClient({ games }: HomePageClientProps) {
                 )}
               </button>
               <a href="#most-played" className="btn-primary">
-                � Play Cookie Clicker
+                🎮 Play Cookie Clicker
               </a>
             </div>
           </div>
