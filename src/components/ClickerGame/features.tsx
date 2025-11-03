@@ -150,7 +150,7 @@ export default function Features({ className = '' }: FeaturesProps) {
             </p>
             <button className="inline-flex items-center gap-2 bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200">
               <Gamepad2 className="w-5 h-5" />
-              Play Now - It's Free!
+              Play Now Clicker Games - It's Free!
             </button>
           </div>
         </div>
