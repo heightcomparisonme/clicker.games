@@ -27,16 +27,16 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <img
-                src="https://ext.same-assets.com/54244373/3952684937.png"
-                alt="Steal a Brainrot"
+                src="/logo-dark.png"
+                alt="Clicker Games"
                 className="h-8 w-auto"
               />
             </div>
             <p className="text-muted-foreground mb-4">
-              Experience the ultimate <strong>Brainrot collection game</strong>! Build your collection, generate income, and steal from others in this revolutionary Roblox-style strategy game. Play instantly with no downloads required!
+              Experience the ultimate <strong>Clicker Games</strong>! Build your collection, generate income, and steal from others in this revolutionary Roblox-style strategy game. Play instantly with no downloads required!
             </p>
             <p className="text-sm text-muted-foreground">
-              Start your Brainrot empire today — collect, steal, and dominate!
+              Start your Clicker Games today!
             </p>
           </div>
 
@@ -104,14 +104,14 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground">
               <p className="mb-1">
-                Steal a Brainrot s.r.l. Via Marsala 29h<br />
+                Clicker Games s.r.l. Via Marsala 29h<br />
                 0185 Rome, Italy VAT: 12327731001<br />
                 REA: RM-1365971
               </p>
             </div>
 
             <div className="text-sm text-muted-foreground">
-              © 2025 Steal a Brainrot. All rights reserved.
+              © 2025 Clicker Games. All rights reserved.
             </div>
           </div>
         </div>

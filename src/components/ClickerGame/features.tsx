@@ -19,63 +19,63 @@ interface FeatureCategory {
 const featureCategories: FeatureCategory[] = [
   {
     id: 'why-choose',
-    title: 'Why Choose Steal a Brainrot?',
-    description: 'Experience the ultimate brainrot gaming adventure with these incredible benefits',
+    title: 'Why Choose ClickerGames?',
+    description: 'Experience the ultimate clicker gaming collection with these incredible benefits',
     features: [
       {
         id: 'instant-play',
         icon: Zap,
         title: 'Instant Play',
-        description: 'Start your Steal a Brainrot adventure immediately'
+        description: 'Start your clicker game adventure immediately'
       },
       {
         id: 'no-download',
         icon: Download,
         title: 'Zero Download Required',
-        description: 'Play this brainrot game directly in your browser'
+        description: 'Play clicker games directly in your browser'
       },
       {
         id: 'cross-platform',
         icon: Smartphone,
         title: 'Cross-Platform Support',
-        description: 'Enjoy Steal a Brainrot on any device'
+        description: 'Enjoy clicker games on any device'
       },
       {
         id: 'completely-free',
         icon: DollarSign,
         title: 'Completely Free',
-        description: 'Get the full Steal a Brainrot experience without any cost'
+        description: 'Get the full clicker gaming experience without any cost'
       }
     ]
   },
   {
     id: 'game-features',
-    title: 'Game Features',
-    description: 'Discover what makes Steal a Brainrot the ultimate strategy experience',
+    title: 'Clicker Game Features',
+    description: 'Discover what makes ClickerGames the ultimate idle gaming experience',
     features: [
       {
-        id: 'real-time-strategy',
+        id: 'idle-mechanics',
         icon: Gamepad2,
-        title: 'Real-Time Strategy',
-        description: 'Engage in dynamic, fast-paced strategic gameplay'
+        title: 'Idle & Incremental',
+        description: 'Progress and earn rewards even when you\'re not actively playing'
       },
       {
-        id: 'multiplayer-battles',
+        id: 'upgrade-systems',
         icon: Users,
-        title: 'Multiplayer Battles',
-        description: 'Compete against players worldwide in epic battles'
+        title: 'Deep Upgrade Systems',
+        description: 'Unlock hundreds of upgrades and achievements to boost your progress'
       },
       {
-        id: 'brainrot-mechanics',
+        id: 'satisfying-clicks',
         icon: Zap,
-        title: 'Unique Brainrot Mechanics',
-        description: 'Experience innovative gameplay systems that challenge your mind'
+        title: 'Satisfying Click Mechanics',
+        description: 'Experience addictive clicking with visual feedback and sound effects'
       },
       {
-        id: 'global-community',
+        id: 'prestige-systems',
         icon: Globe,
-        title: 'Global Community',
-        description: 'Join thousands of players in the Steal a Brainrot universe'
+        title: 'Prestige & Reset Systems',
+        description: 'Start over with permanent bonuses for exponential growth'
       }
     ]
   }
@@ -91,10 +91,10 @@ export default function Features({ className = '' }: FeaturesProps) {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Game Features & Benefits
+            Clicker Game Features & Benefits
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Discover why Steal a Brainrot is the most exciting strategy game you can play right now
+            Discover why ClickerGames is the most exciting clicker game collection you can play right now
           </p>
         </div>
 
@@ -143,10 +143,10 @@ export default function Features({ className = '' }: FeaturesProps) {
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 md:p-12">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Ready to Experience Steal a Brainrot?
+              Ready to Experience ClickerGames?
             </h3>
             <p className="text-blue-100 text-lg mb-6 max-w-2xl mx-auto">
-              Join millions of players worldwide and discover why Steal a Brainrot is the most addictive strategy game ever created.
+              Join millions of players worldwide and discover why ClickerGames is the most addictive clicker game collection ever created.
             </p>
             <button className="inline-flex items-center gap-2 bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200">
               <Gamepad2 className="w-5 h-5" />

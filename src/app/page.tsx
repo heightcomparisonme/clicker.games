@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import HomePageClient from '@/components/HomePageClient';
 import { games } from '@/lib/games';
 
-const SITE_URL = 'https://clicker.games';
+const SITE_URL = 'https://cliker.games';
 
 export const metadata: Metadata = {
   title: 'Clicker | Play Free Clicker Games Instantly | Clicker Games',

@@ -11,34 +11,34 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    id: 'what-is-steal-a-brainrot',
-    question: "What is Steal a Brainrot?",
-    answer: "Steal a Brainrot is a groundbreaking online strategy game that revolutionizes the gaming experience through unique brainrot mechanics. This free browser game combines real-time strategy elements with multiplayer competition, creating an addictive gameplay loop that keeps players engaged for hours.",
+    id: 'how-to-make-clicker-game-scratch',
+    question: "How to make a clicker game on scratch?",
+    answer: "To make a clicker game on Scratch, start by creating a sprite (like a cookie or button), add a variable to track points, and use the 'when this sprite clicked' block to increase the points by 1. Add more sprites for upgrades that cost points but increase your clicking power. You can also add background music and sound effects to make it more engaging.",
   },
   {
-    id: 'how-to-play',
-    question: "How do I play Steal a Brainrot?",
-    answer: "Simply open the game in your browser - no downloads required! Use your mouse to select units and buildings, right-click to issue movement and attack commands. The game supports cross-platform play, so you can enjoy it on any device.",
+    id: 'how-to-make-clicker-game',
+    question: "How to make a clicker game?",
+    answer: "Making a clicker game involves several key elements: a clickable object that generates currency, upgrades that increase earning rates, achievements to unlock, and progression systems. You can use HTML5/JavaScript for web games, Unity for more complex games, or even simple tools like Scratch for beginners. Focus on creating an addictive loop of clicking, earning, and upgrading.",
   },
   {
-    id: 'special-features',
-    question: "What special features does the game have?",
-    answer: "The game features innovative resource stealing mechanics, real-time strategic combat systems, multiplayer competitive modes, and a dynamic brain corruption system that adds layers of complexity to every decision.",
+    id: 'how-to-make-point-and-click-game',
+    question: "How to make a point and click game?",
+    answer: "Point and click games require creating interactive objects, inventory systems, puzzles, and narrative elements. Start with a game engine like Unity, Godot, or even Scratch. Design scenes with clickable hotspots, create an inventory system for items, implement puzzle logic, and add engaging storylines. Focus on intuitive UI design and clear visual feedback for player interactions.",
   },
   {
-    id: 'is-free',
-    question: "Is the game completely free?",
-    answer: "Yes! Steal a Brainrot is completely free to play with no downloads required. All features are accessible directly in your browser without any cost.",
+    id: 'how-to-make-cookie-clicker-scratch',
+    question: "How to make a cookie clicker game on scratch?",
+    answer: "Create a cookie clicker in Scratch by making a large cookie sprite, adding a 'cookies' variable, and programming the cookie to add 1 cookie when clicked. Add upgrade sprites like 'Grandma' or 'Factory' that cost cookies but generate automatic income. Use timer blocks to create passive income and display the cookie count on screen. Add visual effects and sounds to make clicking satisfying.",
   },
   {
-    id: 'improve-skills',
-    question: "How can I improve my gameplay skills?",
-    answer: "Mastering Steal a Brainrot requires understanding its unique brainrot mechanics and strategic depth. Start with basic controls, learn resource management, unit positioning, and timing windows, then gradually advance to more complex tactics.",
+    id: 'what-is-idle-clicker-game',
+    question: "What is an idle clicker game?",
+    answer: "An idle clicker game is a genre where players click to generate resources initially, but gradually unlock automated systems that continue generating resources even when not actively playing. These games focus on progression, upgrades, and optimization rather than skill-based gameplay. Popular examples include Cookie Clicker, Adventure Capitalist, and Clicker Heroes.",
   },
   {
-    id: 'what-makes-unique',
-    question: "What makes Steal a Brainrot unique?",
-    answer: "The game introduces a dynamic brain corruption system that traditional strategy games lack. This system adds complexity to every decision, encouraging creative approaches and adaptive thinking.",
+    id: 'what-is-cookie-clicker-game',
+    question: "What is cookie clicker game?",
+    answer: "Cookie Clicker is the iconic incremental game that popularized the clicker genre. Players click a giant cookie to earn cookies, which can be spent on buildings and upgrades that automatically generate more cookies. The game features hundreds of achievements, prestige mechanics, and a surprisingly deep metagame with seasonal events and hidden features.",
   },
 ];
 
@@ -74,7 +74,7 @@ export default function FAQ({ className = '' }: FAQProps) {
           Frequently Asked Questions
         </h2>
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-          Everything you need to know about Steal a Brainrot
+          Everything you need to know about clicker games
         </p>
         <button
           onClick={toggleAll}

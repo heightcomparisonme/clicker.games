@@ -10,9 +10,9 @@ interface GamePlayerProps {
 }
 
 export default function GamePlayer({
-  gameUrl = "https://st.8games.net/9/8g/igra-ukradi-brejnrot-original-3d/",
-  gameName = "Steal a Brainrot",
-  thumbnail = "https://ext.same-assets.com/3187520992/3746487869.png"
+  gameUrl = "https://st.8games.net/7/igra-kuki-kliker/",
+  gameName = "Cookie Clicker",
+  thumbnail = "https://static.8games.net/flash/all/igry-klikery/16.jpg"
 }: GamePlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);

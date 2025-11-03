@@ -5,11 +5,11 @@ import Section from './Section';
 import Features from './features';
 import FAQ from './faq';
 
-interface StealaBrainrotProps {
+interface ClickerGamesProps {
   className?: string;
 }
 
-export default function StealaBrainrot({ className = '' }: StealaBrainrotProps) {
+export default function ClickerGames({ className = '' }: ClickerGamesProps) {
   return (
     <div className={`min-h-screen bg-gray-50 dark:bg-gray-900 ${className}`}>
       {/* Game Player Section */}

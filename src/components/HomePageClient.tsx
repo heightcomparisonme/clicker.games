@@ -7,7 +7,7 @@ import SearchBar from '@/components/SearchBar';
 import GameFilter from '@/components/GameFilter';
 import GameSection from '@/components/GameSection';
 import Footer from '@/components/Footer';
-import StealaBrainrot from '@/components/StealaBrainrot';
+import ClickerGames from '@/components/ClickerGame';
 import type { Game } from '@/lib/games';
 
 interface HomePageClientProps {
@@ -109,16 +109,16 @@ export default function HomePageClient({ games }: HomePageClientProps) {
         <section className="hero-gradient py-16 px-4 sm:px-6">
           <div className="container-custom text-center">
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-foreground mb-6">
-              Steal a Brainrot Games
+              Cookie Clicker
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Experience the ultimate Brainrot collection game! Step into a Roblox-style world full of absurd meme characters. Build your collection, generate income, and steal from others in this revolutionary strategy game. Play instantly - no downloads required!
+              Experience the ultimate Cookie Clicker and incremental games collection! Click your way to cookie empire domination with satisfying idle mechanics. Build bakeries, unlock upgrades, and watch your cookie production skyrocket. Play the most addictive clicker games instantly - no downloads required!
             </p>
 
             <div className="max-w-2xl mx-auto mb-6">
               <SearchBar
                 onSearch={handleSearch}
-                placeholder="Search Brainrot games, characters, or features..."
+                placeholder="Search clicker games, Cookie Clicker, idle games..."
                 className="mb-4"
               />
             </div>
@@ -138,14 +138,14 @@ export default function HomePageClient({ games }: HomePageClientProps) {
                 )}
               </button>
               <a href="#most-played" className="btn-primary">
-                🎮 Play Steal a Brainrot
+                � Play Cookie Clicker
               </a>
             </div>
           </div>
         </section>
 
         {/* Featured Game Section */}
-        <StealaBrainrot />
+        <ClickerGames />
 
         {showFilters && (
           <section className="py-8 bg-muted/20 border-b border-border px-4 sm:px-6">

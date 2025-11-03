@@ -29,24 +29,24 @@ const gameInfo: GameInfo = {
 
 const faqs: FAQItem[] = [
   {
-    question: "What is the best Brainrot in Steal a Brainrot?",
-    answer: "The best Brainrots are typically the legendary and rare characters that generate the highest income over time. Focus on collecting high-tier Brainrots for maximum efficiency."
+    question: "What is the best building in Cookie Clicker?",
+    answer: "The best buildings are typically Antimatter Condensers and Prisms in the late game, as they generate the highest cookies per second. However, early game focus should be on Cursors, Grandmas, and Farms for efficient progression."
   },
   {
-    question: "What is the rarest Brainrot in Steal a Brainrot?",
-    answer: "The rarest Brainrots are legendary characters that appear very infrequently. These characters offer the best income generation and are highly sought after by players."
+    question: "How do I get golden cookies in Cookie Clicker?",
+    answer: "Golden cookies appear randomly on screen every few minutes. Click them quickly to get powerful temporary bonuses like increased production, cookie bonuses, or building cost reductions. Some upgrades increase their frequency."
   },
   {
-    question: "How do I get new Brainrots?",
-    answer: "You can get new Brainrots by purchasing them with in-game funds or by stealing them from other players when possible. Start with basic characters like Noobini Pizzanini and work your way up."
+    question: "What are heavenly chips and how do I use them?",
+    answer: "Heavenly chips are earned when you ascend (reset your game). They provide permanent bonuses to cookie production and unlock powerful heavenly upgrades. You can spend them in the Legacy menu for permanent improvements."
   },
   {
-    question: "Are there different rarities of Brainrots?",
-    answer: "Yes! Brainrots come in different rarity levels including common, rare, and legendary. Higher rarity Brainrots typically generate more income and are harder to obtain."
+    question: "When should I ascend in Cookie Clicker?",
+    answer: "You should ascend when your progress slows significantly and you've earned enough heavenly chips to make meaningful upgrades. Generally, your first ascension should be around 200-300 heavenly chips for optimal efficiency."
   },
   {
-    question: "Where to play Steal Brainrot online?",
-    answer: "You can play Steal a Brainrot directly in your browser on our platform. No downloads required - just click play and start building your Brainrot collection!"
+    question: "Where can I play Cookie Clicker online?",
+    answer: "You can play Cookie Clicker directly in your browser on our platform. No downloads required - just click the giant cookie and start your incremental journey to cookie domination!"
   }
 ];
 
