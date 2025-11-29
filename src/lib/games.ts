@@ -314,5 +314,6 @@ export const navigationItems = [
   { name: "New", href: "/new" },
   { name: "Trending", href: "/trending" },
   { name: "Specials", href: "/specials" },
-  { name: "Recently played", href: "/recently-played" }
+  { name: "Recently played", href: "/recently-played" },
+  { name: "Link Scanner", href: "/brainrot-link-scanner" }
 ];

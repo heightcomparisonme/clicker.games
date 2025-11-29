@@ -15,7 +15,8 @@ export default function Footer() {
     { name: 'Contact Us', href: 'https://partners.clickergames.com/contact' },
     { name: 'Privacy Policy', href: '/privacy-cookie' },
     { name: 'Terms of Service', href: '/terms' },
-    { name: 'Cookie Policy', href: '/cookies' }
+    { name: 'Cookie Policy', href: '/cookies' },
+    { name: 'Link Scanner', href: '/brainrot-link-scanner' }
   ];
 
   return (
